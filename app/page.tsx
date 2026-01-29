@@ -1,4 +1,7 @@
-﻿import Navbar from '../components/Navbar'
+'use client'
+
+
+import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
 import BookingCard from '../components/BookingCard'
 import Footer from '../components/Footer'
@@ -19,3 +22,4 @@ export default function Home() {
     </>
   )
 }
+
