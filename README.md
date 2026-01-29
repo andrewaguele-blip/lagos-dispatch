@@ -1,4 +1,4 @@
+﻿# Lagos Dispatch Services
 
-# Lagos Dispatch Services
-
-Official website for Lagos Dispatch Services.
+GoKada-style UI built with Next.js.
+Deploy directly to Vercel.
