@@ -8,7 +8,7 @@
             rgba(0,0,0,0.75),
             rgba(0,0,0,0.75)
           ),
-          url('/hero-rider.jpg')
+          url('/hero-rider.png')
         `,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
