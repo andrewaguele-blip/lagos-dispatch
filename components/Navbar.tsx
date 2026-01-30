@@ -13,9 +13,16 @@
         zIndex: 1000,
       }}
     >
-      <strong style={{ fontSize: 20, color: '#0f9d58' }}>
-        Lagos Dispatch
-      </strong>
+      <strong
+  style={{
+    fontSize: 22,
+    color: '#0F9D58',
+    letterSpacing: '-0.5px',
+  }}
+>
+  Lagos Dispatch
+</strong>
+
 
       <div style={{ display: 'flex', gap: 20 }}>
         <a href="#book" style={linkStyle}>Book</a>
@@ -31,3 +38,5 @@ const linkStyle = {
   color: '#333',
   fontWeight: 500,
 }
+
+

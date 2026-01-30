@@ -5,12 +5,17 @@
       background: 'linear-gradient(135deg, #0f9d58, #0b6e3e)',
       color: '#fff'
     }}>
-      <h1 style={{ fontSize: 48, maxWidth: 700 }}>
-        Fast Dispatch Services Across Lagos
-      </h1>
-      <p style={{ fontSize: 18, maxWidth: 600 }}>
-        Mainland & Island delivery you can trust
-      </p>
+      <h1 style={{ fontSize: 52, maxWidth: 720, marginBottom: 12 }}>
+  Fast Dispatch Across Lagos
+</h1>
+<p style={{ fontSize: 18, maxWidth: 620, opacity: 0.95 }}>
+  Mainland & Island deliveries — reliable, affordable, on time.
+</p>
+
     </section>
   )
 }
+
+
+
+

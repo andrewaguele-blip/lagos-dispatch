@@ -6,10 +6,18 @@
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang='en'>
-      <body style={{ margin: 0, fontFamily: 'Arial, sans-serif', scrollBehavior: 'smooth' }}>
+      <body
+  style={{
+    margin: 0,
+    fontFamily: 'Inter, Arial, sans-serif',
+    backgroundColor: '#ffffff',
+    color: '#111111',
+    scrollBehavior: 'smooth',
+  }}
+>
+  {children}
+</body>
 
-        {children}
-      </body>
     </html>
   )
 }
