@@ -64,7 +64,7 @@ export default function Home() {
   >
     {/* IMAGE */}
     <img
-      src="/rider-services.jpg"
+      src="/rider-services.png"
       alt="Lagos Dispatch Rider"
       style={{
         width: '100%',
