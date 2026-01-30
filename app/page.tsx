@@ -45,54 +45,62 @@ export default function Home() {
       </section>
 
       {/* RIDERS */}
-      <section
-        id="riders"
+     <section
+  id="riders"
+  style={{
+    padding: '80px 20px',
+    background: '#F7F7F7',
+  }}
+>
+  <div
+    style={{
+      maxWidth: 1100,
+      margin: '0 auto',
+      display: 'grid',
+      gridTemplateColumns: '1fr 1fr',
+      gap: 40,
+      alignItems: 'center',
+    }}
+  >
+    {/* IMAGE */}
+    <img
+      src="/rider-services.jpg"
+      alt="Lagos Dispatch Rider"
+      style={{
+        width: '100%',
+        borderRadius: 12,
+      }}
+    />
+
+    {/* TEXT */}
+    <div>
+      <h2 style={{ fontSize: 36, marginBottom: 12 }}>
+        Our Services
+      </h2>
+
+      <div
         style={{
-          padding: '80px 20px',
-          background: '#F7F7F7',
-          textAlign: 'center',
+          width: 60,
+          height: 4,
+          background: '#C4161C',
+          marginBottom: 20,
+          borderRadius: 2,
         }}
-      >
-        <h2 style={{ fontSize: 36, marginBottom: 12 }}>
-          Become a Rider
-        </h2>
+      />
 
-        <div
-          style={{
-            width: 70,
-            height: 4,
-            background: '#0F9D58',
-            margin: '0 auto 24px',
-            borderRadius: 2,
-          }}
-        />
+      <ul style={{ fontSize: 16, lineHeight: 1.8 }}>
+        <li>Way-billing</li>
+        <li>Home Delivery</li>
+        <li>Personal Errands</li>
+        <li>Pick Up / Drop Off</li>
+        <li>Intra-city Delivery</li>
+        <li>Corporate Delivery</li>
+        <li>Food / Drug Delivery</li>
+      </ul>
+    </div>
+  </div>
+</section>
 
-        <p
-          style={{
-            maxWidth: 620,
-            margin: '0 auto',
-            fontSize: 16,
-            lineHeight: 1.6,
-          }}
-        >
-          Own your motorbike through our flexible hire-purchase program and earn
-          weekly delivering across Lagos Mainland and Island.
-        </p>
-
-        <div
-          style={{
-            marginTop: 32,
-            display: 'inline-block',
-            padding: '14px 28px',
-            background: '#111',
-            color: '#fff',
-            borderRadius: 8,
-            fontWeight: 600,
-          }}
-        >
-          Apply as a Rider
-        </div>
-      </section>
 
       {/* CONTACT */}
       <section
